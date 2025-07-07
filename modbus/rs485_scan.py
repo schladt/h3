@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-rs485_finder.py  –  banner / framing sweeper for serial links
+rs485_scan.py  –  banner / framing sweeper for serial links
 
 Usage:
-    python rs485_finder.py /dev/cu.usbserial-BG018ZD3  [seconds_to_listen]
+    python rs485_scan.py /dev/cu.usbserial-BG018ZD3  [seconds_to_listen]
 
 If no response times are given it listens 0.4 s per test.
 """
